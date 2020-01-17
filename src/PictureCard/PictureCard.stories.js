@@ -13,7 +13,7 @@ import PictureCard from "./index";
 const image = object("image", {
   original: "385x320",
   code: "moscow_ru",
-  name: "moscow_ru",
+  name: "Moscow",
   placeholder: "385x320",
 });
 
