@@ -7,7 +7,7 @@ export type RtlSpacing = (value: string) => (theme: ThemeType) => string;
 
 export type BorderRadius = (value: string) => (theme: ThemeType) => string;
 
-export type TextAlign = (value: "left" | "right") => (theme: ThemeType) => string | LeftToRight;
+export type TextAlign = (value: "left" | "right") => (theme: ThemeType) => string;
 
 export type Translate3d = (value: string) => (themeProps: ThemeType) => string;
 

@@ -6,7 +6,7 @@ module.exports = {
       extends: ['./config/eslintJS'],
     },
     {
-      files: '*.ts',
+      files: '*.ts?(x)',
       extends: ['./config/eslintTS'],
     },
   ],
