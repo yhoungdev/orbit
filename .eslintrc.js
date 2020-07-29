@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   overrides: [
     {
-      files: '*.js',
+      files: '*.js?(.flow)',
       extends: ['./config/eslintJS'],
     },
     {
