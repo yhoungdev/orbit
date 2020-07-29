@@ -1,9 +1,15 @@
 {
   "compilerOptions": {
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
     "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
     "strict": true,
     "noImplicitAny": false,
     "moduleResolution": "node",
+    "esModuleInterop": true,
     "jsx": "preserve",
     "baseUrl": "./"
   },
