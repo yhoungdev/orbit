@@ -3,9 +3,10 @@
 // Project: http://github.com/kiwicom/orbit
 
 import * as React from "react";
+import { StyledComponent } from "styled-components";
 
 import * as Common from "../common/common";
-
+import { ThemeShape } from "../defaultTheme";
 declare module "@kiwicom/orbit-components/lib/Modal";
 
 type Size = "extraSmall" | "small" | "normal" | "large";
@@ -35,3 +36,4 @@ export { Modal, Modal as default };
 export { ModalHeader } from "./ModalHeader/index";
 export { ModalSection } from "./ModalSection/index";
 export { ModalFooter } from "./ModalFooter/index";
+export const ModalCloseContainer: StyledComponent<"div", ThemeShape>;

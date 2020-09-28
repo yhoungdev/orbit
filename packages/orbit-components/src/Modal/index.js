@@ -680,3 +680,4 @@ export default ThemedModal;
 export { default as ModalHeader } from "./ModalHeader";
 export { default as ModalSection } from "./ModalSection";
 export { default as ModalFooter } from "./ModalFooter";
+export { CloseContainer as ModalCloseContainer };
