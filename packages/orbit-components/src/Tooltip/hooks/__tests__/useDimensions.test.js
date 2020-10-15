@@ -62,7 +62,7 @@ describe("useDimensions", () => {
     expect(wrapper.find("#windowHeight").text()).toBe("768");
     expect(wrapper.find("#contentHeight").text()).toBe("32");
   });
-  it("should return values", () => {
+  it("should return values after resize", () => {
     window.innerHeight = 700;
     window.innerWidth = 1000;
     window.scrollY = 40;
